@@ -1,0 +1,76 @@
+#demo-switcher {
+  position: fixed;
+  top: 200px;
+  z-index: 50;
+  left: -265px;
+  transition: .4s;
+}
+
+#demo-switcher.opened{
+	left: 0;
+}
+
+#demo-menu {
+  width: 265px;
+}
+
+#demo-menu h4 {
+  margin: 0;
+  padding: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #333;
+}
+
+.switcher{
+	background-color: #fff;
+	padding: 15px;
+	border-right: 1px solid #DDD;
+	border-bottom: 1px solid #DDD;
+	border-bottom-right-radius: 4px;
+}
+
+.switcher p{
+	color: #777;
+	margin-bottom: 10px;
+}
+
+.switcher .form-control{
+	box-shadow: none;
+	-webkit-box-shadow: none;
+}
+
+.theme-colors{
+	list-style: none;
+	padding: 0;	
+}
+
+.theme-colors li a {
+	width: 40px;
+	height: 30px;
+	display: block;
+	border-radius: 4px;
+}
+
+.theme-colors li {
+	display: inline-block;
+	margin: 2px;
+}
+
+#toggle-button {
+    position: absolute;
+    top: 0;
+    left: 265px;
+    background-color: #333;
+    color: #fff;
+    height: 49px;
+    width: 49px;
+    text-align: center;
+    line-height: 49px;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+}
+#toggle-button .fa {
+    line-height: inherit;
+}
